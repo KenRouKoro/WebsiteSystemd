@@ -1,0 +1,117 @@
+input[type=text] {
+    width: 340px;
+    padding: 0 25px;
+    height: 38px;
+    border: 1px solid #f2f2f2;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 48px;
+    border-radius: 0px;
+}
+input[type=text]:focus {
+    outline: none;
+    border-color: #ff8b00;
+    background-color: #fff;
+}
+input[type=text]::selection{
+    background:transparent;
+    background-color: #fff;
+}
+input[type=text]::-moz-selection{
+    background:transparent;
+    background-color: #fff;
+}
+input[type=text]::-webkit-input-placeholder { /* WebKit browsers */
+    color: #bababa;
+}
+input[type=text]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #bababa;
+}
+input[type=text]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #bababa;
+}
+input[type=text]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #bababa;
+}
+
+
+input[type=password] {
+    width: 340px;
+    padding: 0 25px;
+    height: 38px;
+    border: 1px solid #f2f2f2;
+    background: #f6f6f6;
+    color: #202124;
+    font-size: 14px;
+    line-height: 48px;
+    border-radius: 0px;
+}
+input[type=password]:focus {
+    outline: none;
+    border-color: #ff8b00;
+    background-color: #fff;
+}
+input[type=password]::selection{
+    background:transparent;
+    background-color: #fff;
+}
+input[type=password]::-moz-selection{
+    background:transparent;
+    background-color: #fff;
+}
+input[type=password]::-webkit-input-placeholder { /* WebKit browsers */
+    color: #bababa;
+}
+input[type=password]:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color: #bababa;
+}
+input[type=password]::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color: #bababa;
+}
+input[type=password]:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #bababa;
+}
+
+input[type=submit] {
+    background-color: #ff8900;
+    border: none;
+    color: white;
+    padding: 0px 25px;
+    height: 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 4px 6px 9px 1px rgba(0,0,0,.1);
+}
+button{
+    background-color: #ff8900;
+    border: none;
+    color: white;
+    padding: 0px 25px;
+    height: 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 4px 6px 9px 1px rgba(0,0,0,.1);
+}
+input[type=button] {
+    background-color: #ff8900;
+    border: none;
+    color: white;
+    padding: 0px 25px;
+    height: 38px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    box-shadow: 4px 6px 9px 1px rgba(0,0,0,.1);
+}

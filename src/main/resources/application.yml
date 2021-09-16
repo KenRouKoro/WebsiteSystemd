@@ -1,0 +1,33 @@
+server:
+  port: 8090
+web-name: KoroCloud虚拟主机
+name: KoroCloud
+side:
+btapi:
+btside:
+phpversion: 74
+spring:
+  application:
+    name: WebsiteSystemd
+  freemarker:
+    allow-request-override: false
+    cache: true
+    charset: UTF-8
+    check-template-location: true
+    content-type: text/html;
+    suffix: .ftl
+    template-loader-path: classpath:/templates/,templates/
+    enabled: true
+  datasource:
+    url: jdbc:h2:~/web
+    driver-class-name: org.h2.Driver
+    username: admin
+    password: 123456
+  jpa:
+    database: h2
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      path: /h2admin
+      enabled: true

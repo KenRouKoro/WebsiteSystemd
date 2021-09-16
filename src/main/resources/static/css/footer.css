@@ -1,0 +1,14 @@
+footer{
+    background-color: rgba(255,255,255,.95) ;
+    color: #b9b9b9;
+    flex: 0 0 auto;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:100px;
+    padding-bottom: 20px;
+}
+a{
+    color: #b9b9b9;
+    text-decoration: none;
+}

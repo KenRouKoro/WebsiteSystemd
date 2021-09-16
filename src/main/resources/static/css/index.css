@@ -1,0 +1,30 @@
+.main-panel{
+    width: 500px;
+    height: 400px;
+    background-color:#fff;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    box-shadow: -4px 7px 46px 2px rgba(0,0,0,.1);
+    padding: 20px 25px 25px;
+}
+.main-panel-title{
+    font-size: 32px;
+}
+html{
+    color: #868686;
+}
+.main-panel-info{
+    padding-right: 50px;
+    padding-left: 50px;
+    text-align: left;
+}
+.main-panel-todo-find{
+    margin: auto;
+    text-align: left;
+    padding-right: 50px;
+    padding-left: 50px;
+}
