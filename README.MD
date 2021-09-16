@@ -11,3 +11,4 @@
 
 **测试启动，打包运行即可。**
 
+**已经上行的DEMO：https://autoweb.vps.korocloud.com/**
